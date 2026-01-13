@@ -1,16 +1,53 @@
-<
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Portfolio</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="style.css">
+    <style>
+              html {
+
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+
+<body class="bg-slate-50 text-slate-900 transition-colors duration-300">
+    <nav
+        class="sticky top-0 z-50 flex justify-between items-center px-[6%] py-4 bg-slate-50/90 backdrop-blur-md shadow-sm border-b border-slate-200 text-slate-900 transition-colors duration-300">
+        <div class="text-2xl font-bold bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">S
+        </div>
+        <div class="flex items-center gap-8">
+            <ul class="hidden md:flex space-x-8 font-medium text-gray-600 dark:text-gray-300">
+                <li><a href="#about"
+                        class="hover:text-blue-800 dark:hover:text-blue-400 text-black transition">About</a></li>
+                <li><a href="#skills"
+                        class="hover:text-blue-800 dark:hover:text-blue-400 text-black transition">Skills</a></li>
+                <li><a href="#projects"
+                        class="hover:text-blue-800 dark:hover:text-blue-400 text-black transition">Projects</a></li>
+                <li><a href="#contact"
+                        class="hover:text-blue-800 dark:hover:text-blue-400 text-black transition">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="relative flex flex-col items-center justify-center text-center min-h-screen px-6 overflow-hidden
+         bg-[url('./hero.png')] bg-cover bg-center">
         <div class="absolute inset-0 bg-slate-50/85 backdrop-blur-[1px]"></div>
 
         <div class="relative z-10 animate-fade-in-up">
             <div
                 class="inline-block px-4 py-1.5 mb-6 text-sm font-semibold tracking-wider text-blue-800 uppercase bg-blue-100 rounded-full">
-                Welcome to my portfolio
+                Welcome to my portfolio hey
             </div>
 
             <h1 class="text-5xl md:text-7xl font-bold mb-6 tracking-tight text-slate-900">
                 Hi, I'm
                 <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-indigo-600">
-                    Subash Gautam
+                    Vicky singh
                 </span>
             </h1>
 
@@ -266,9 +303,9 @@
                         Email Me At
                     </p>
 
-                    <a href="mailto:suraj@ncit.edu.np" class="text-2xl md:text-3xl font-bold
+                    <a href="mailto:vickycng07@gmail.com" class="text-2xl md:text-3xl font-bold
                  text-blue-600 hover:text-blue-700 transition underline-offset-4 hover:underline">
-                        suraj@ncit.edu.np
+                        vickycng07@gmail.com
                     </a>
                 </div>
             </div>
@@ -287,5 +324,4 @@
 
     <script src="script.js"></script>
 </body>
-
 </html>
